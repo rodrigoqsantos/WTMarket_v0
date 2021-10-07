@@ -1,0 +1,17 @@
+{
+  "name": "aconcagua-v0",
+  "version": "1.0.0",
+  "description": "Criando uma versão mais simples do projeto aconcágua, sem banco de dados.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Rodrigo Q Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
