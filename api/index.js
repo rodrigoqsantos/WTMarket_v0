@@ -5,7 +5,7 @@ const config = require('config');
 
 app.use(bodyParser.json());
 
-const router = require('./routes/router');
+const router = require('./rotas/rotas');
 const connection = require('./database/connection');
 
 //app.use('', router);
