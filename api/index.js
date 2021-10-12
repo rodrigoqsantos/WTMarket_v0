@@ -3,10 +3,13 @@ const app = express();
 const bodyParser = require('body-parser');
 const config = require('config');
 
-app.use(bodyParser.jason());
+app.use(bodyParser.json());
 
 const router = require('./routes/router');
+const connection = require('./database/connection');
 
 //app.use('', router);
 
 app.listen(config.get('api.porta'), () => console.log('A API está funcionando!'));
+
+module.exports = app;
