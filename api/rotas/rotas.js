@@ -6,4 +6,8 @@ app.get('api/categorias', async (req, res) => {
     const resposta = await connection.query('SELECT * FROM categoria');
 
     return res.send(resposta);
-})
+});
+
+app.post('api/categorias', (req, res) => {
+
+});
