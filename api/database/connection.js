@@ -1,19 +1,11 @@
 const mysql = require('mysql');
 
-const connection = mysql.createConnection({
-    host: 'localhost',
+connection = mysql.createConnection({
+    hots: 'localhost',
     port: 3306,
     user: 'root',
     password: 'admin',
-    database: 'wtmarket_v0'
-})
-
-connection.connect(erro => {
-    if(erro) {
-        throw erro;
-    } else {
-        console.log('Conectado ao banco de dados!');
-    }
-})
+    database: 'wtmarket'
+});
 
 module.exports = connection;

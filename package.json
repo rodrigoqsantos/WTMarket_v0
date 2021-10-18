@@ -1,20 +1,19 @@
 {
-  "name": "aconcagua-v0",
+  "name": "WTMarket_v0",
   "version": "1.0.0",
-  "description": "Criando uma versão mais simples do projeto aconcágua, sem banco de dados.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rodrigo Q Santos",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.3.6",
     "express": "^4.17.1",
-    "http": "0.0.1-security",
     "moment": "^2.29.1",
-    "mysql": "^2.18.1",
-    "node-fetch": "^3.0.0"
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
